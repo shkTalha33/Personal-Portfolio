@@ -1,0 +1,21 @@
+@import "./scss/_bootstrap.scss";
+@import "./scss/_contants.scss";
+@import "./scss/_header.scss";
+@import "./scss/_hero.scss";
+@import "./scss/_services.scss";
+@import "./scss/_work.scss";
+@import "./scss/_portfolio.scss";
+@import "./scss/_testimonials.scss";
+@import "./scss/_footer.scss";
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Eudoxus Sans",sans-serif;
+}
+#root{
+    overflow-x: hidden;
+    background-color: $bg-color;
+    min-height: 100vh;
+}

@@ -1,0 +1,105 @@
+footer{
+    overflow-y: hidden;
+    background-color: white;
+    .left-side{
+        h1{
+            font-size: 50px;
+            font-weight: 700;
+            color: $primary;
+            margin-bottom: 3rem;
+        }
+        p{
+         font-weight: 600;
+         font-size: 50px;
+            span{
+                color: orange;
+                text-decoration: underline;
+                cursor: pointer;
+            }
+        }
+    }
+    .right-side{
+       cursor: pointer;
+        p{
+            font-size: 18px;
+            color: $secondary;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+@media (min-width:768px) and (max-width:1023px) {
+    footer{
+        .left-side{
+            h1{
+                font-size: 37px;
+                font-weight: 700;
+                color: $primary;
+                margin-bottom: 2.5rem;
+            }
+            p{
+             font-weight: 600;
+             font-size: 40px;
+            }
+        }
+        .right-side{
+            p{
+                font-size: 17px;
+            }
+        }
+    }
+}
+@media (max-width:767px) {
+    footer{
+        .left-side{
+            h1{
+                font-size: 35px;
+                font-weight: 700;
+                color: $primary;
+                margin-bottom: 2rem;
+            }
+            p{
+             font-weight: 600;
+             font-size: 35px;
+            }
+        }
+        .right-side{
+            display: flex;
+            gap: .5rem 2rem;
+            flex-wrap: wrap;
+            >:nth-child(1){
+                font-size: 20px;
+                color: $primary;
+                font-weight: 500;
+            }
+        }
+    }
+}
+@media (max-width:320px) {
+    footer{
+        .left-side{
+            h1{
+                font-size: 27px;
+                font-weight: 700;
+                color: $primary;
+                margin-bottom: 2rem;
+            }
+            p{
+             font-weight: 600;
+             font-size: 27px;
+            }
+        }
+        .right-side{
+            display: flex;
+            gap: .5rem 2rem;
+            flex-wrap: wrap;
+            >:nth-child(1){
+                font-size: 20px;
+                color: $primary;
+                font-weight: 500;
+            }
+        }
+    }
+}

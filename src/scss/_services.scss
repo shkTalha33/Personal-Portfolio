@@ -1,0 +1,319 @@
+.services {
+  background-color: white;
+  .services-section {
+    display: flex;
+    justify-content: center;
+
+    .left-side {
+      .card {
+        display: flex;
+        flex-direction: row;
+        padding: 24px;
+        align-items: center;
+        cursor: pointer;
+        &:hover{
+          box-shadow: 0px 10px 10px  rgba(0,0,0,10%);
+        }
+        .card-detail {
+          line-height: 3rem;
+          .name{
+            margin-bottom: 0px;
+            font-size: 30px;
+            font-weight: 500;
+            color: $primary;
+          }
+          .projects{
+            margin-bottom: 0px;
+            font-size: 22px;
+            font-weight: 400;
+            color: $primary;
+          }
+        }
+        .card-icon {
+          svg {
+            color: white;
+            border-radius: 100%;
+            padding: 10px;
+            font-size: 50px;
+          }
+        }
+      }
+    }
+    .right-side{
+        .help{
+            font-size: 50px;
+            font-weight: 600;
+            color: $primary;
+            margin-bottom: 3rem;
+        }
+        .help-detail{
+            font-size: 25px;
+            line-height: 2rem;
+
+        }
+        .overview{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .project{
+                text-align: center;
+                >:nth-child(1){
+                    font-size: 50px;
+                    color: $primary;
+                    font-weight: 600;
+                    margin-bottom: 0;
+                }
+                >:nth-child(2){
+                    font-size:22px;
+                    color: $primary;
+                    font-weight: 500;
+                    margin-bottom: 0;
+                }
+            }
+            .client{
+                text-align: center;
+                >:nth-child(1){
+                    font-size: 50px;
+                    color: $primary;
+                    font-weight: 600;
+                    margin-bottom: 0;
+                }
+                >:nth-child(2){
+                    font-size:22px;
+                    color: $primary;
+                    font-weight: 500;
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+  }
+}
+
+
+@media (min-width:992px)and (max-width:1023px) {
+  .services {
+    .services-section {
+      .left-side {
+        .card {
+          .card-detail {
+            line-height: 2.5rem;
+            .name{
+              font-size: 25px;
+            }
+           .projects{
+              font-size: 20px;
+            }
+          }
+          .card-icon {
+            svg {
+              padding: 8px;
+              font-size: 45px;
+            }
+          }
+        }
+      }
+      .right-side{
+          .help{
+              font-size: 45px;
+              font-weight: 600;
+              margin-bottom: 2.5rem;
+          }
+          .help-detail{
+              font-size: 22px;
+  
+          }
+          .overview{
+              .project{
+                  >:nth-child(1){
+                      font-size: 40px;
+                  }
+                  >:nth-child(2){
+                      font-size:20px;
+                  }
+              }
+              .client{
+                  >:nth-child(1){
+                      font-size: 40px;
+                  }
+                  >:nth-child(2){
+                      font-size:20px;
+                  }
+              }
+          }
+      }
+    }
+  }
+  
+}
+
+@media (min-width:768px)and (max-width:991px) {
+  .services {
+    .services-section {
+      .left-side {
+        .card {
+          .card-detail {
+            line-height: 2rem;
+            .name{
+              font-size: 22px;
+            }
+           .projects{
+              font-size: 20px;
+            }
+          }
+          .card-icon {
+            margin-right: 10px;
+            svg {
+              padding: 8px;
+              font-size: 40px;
+            }
+          }
+        }
+      }
+      .right-side{
+          .help{
+              font-size: 40px;
+              font-weight: 600;
+              margin-bottom: 2rem;
+          }
+          .help-detail{
+              font-size: 18px;
+  
+          }
+          .overview{
+              .project{
+                  >:nth-child(1){
+                      font-size:35px;
+                  }
+                  >:nth-child(2){
+                      font-size:18px;
+                  }
+              }
+              .client{
+                  >:nth-child(1){
+                      font-size: 35px;
+                  }
+                  >:nth-child(2){
+                      font-size:18px;
+                  }
+              }
+          }
+      }
+    }
+  }
+  
+}
+
+
+@media (max-width:767px){
+  .services {
+    .services-section {
+      .left-side {
+        .card {
+          .card-detail {
+            line-height: 2rem;
+            .name{
+              font-size: 20px;
+            }
+           .projects{
+              font-size: 18px;
+            }
+          }
+          .card-icon {
+            margin-right: 10px;
+            svg {
+              padding: 8px;
+              font-size: 40px;
+            }
+          }
+        }
+      }
+      .right-side{
+          .help{
+              font-size: 35px;
+              font-weight: 600;
+              margin-bottom: 2rem;
+          }
+          .help-detail{
+              font-size: 17px;
+  
+          }
+          .overview{
+              .project{
+                  >:nth-child(1){
+                      font-size:30px;
+                  }
+                  >:nth-child(2){
+                      font-size:17px;
+                  }
+              }
+              .client{
+                  >:nth-child(1){
+                      font-size: 30px;
+                  }
+                  >:nth-child(2){
+                      font-size:17px;
+                  }
+              }
+          }
+      }
+    }
+  }
+  
+}
+@media (max-width:425px){
+  .services {
+    .services-section {
+      .left-side {
+        .card {
+          .card-detail {
+            line-height: 2rem;
+            .name{
+              font-size: 20px;
+            }
+           .projects{
+              font-size: 18px;
+            }
+          }
+          .card-icon {
+            margin-right: 10px;
+            svg {
+              padding: 8px;
+              font-size: 40px;
+            }
+          }
+        }
+      }
+      .right-side{
+          .help{
+              font-size: 35px;
+              font-weight: 600;
+              margin-bottom: 2rem;
+          }
+          .help-detail{
+              font-size: 16px;
+  
+          }
+          .overview{
+              .project{
+                  >:nth-child(1){
+                      font-size:30px;
+                  }
+                  >:nth-child(2){
+                      font-size:16px;
+                  }
+              }
+              .client{
+                  >:nth-child(1){
+                      font-size: 30px;
+                  }
+                  >:nth-child(2){
+                      font-size:16px;
+                  }
+              }
+          }
+      }
+    }
+  }
+  
+}
