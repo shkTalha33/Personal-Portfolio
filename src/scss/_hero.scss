@@ -74,9 +74,12 @@
         z-index: 2;
         top: 50%;
         left: 0%;
-        color: orange;
         text-decoration: underline;
         cursor: pointer;
+        a{
+          color: orange;
+
+        }
     }
     .person{
         background-image: url("splash.png");

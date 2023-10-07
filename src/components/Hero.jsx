@@ -57,8 +57,8 @@ import { fadeIn, slideIn, staggerContainer } from '../utils/motion'
                       </span>
                     </motion.div>
                     <div className="email">
-                        <a href="mailto:shykhtalha33@gmail.com"></a>
-                        shykhtalha33@gmail.com
+                        <a href="Mailto:shykhtalha33@gmail.com"> shykhtalha33@gmail.com</a>
+                       
                     </div>
                     <motion.div className="person"
                   variants={fadeIn("down","tween",0.3,1)}

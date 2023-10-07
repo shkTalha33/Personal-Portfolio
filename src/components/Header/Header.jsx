@@ -29,11 +29,11 @@ const Header = () => {
                   <li><a href="#testimonials">TESTIMONAILS</a></li>
                   <li className='cell'>
                     <span>03187019892</span>
-                    <span className='icon'>{<BiPhoneCall />}</span>
+                    <a className='icon' href="tel:+923187019892">{<BiPhoneCall />}</a>
                   </li>
                  </ul>
                  <div className="menu-button" onClick={()=>setmenuOpened((prev)=>!prev)}>
-                  <BiMenuAltRight size={30}/>
+                 <BiMenuAltRight size={30}/>
                  </div>
               </div>
            </div>
