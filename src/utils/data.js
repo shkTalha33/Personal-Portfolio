@@ -9,7 +9,7 @@ export const projectExperience = [
     bg: "#286F6C",
   },
   {
-    name: "Mobile App Design",
+    name: "Web development",
     projects: 63,
     icon: CiMobile1,
     bg: "#EEC048",
@@ -29,27 +29,28 @@ export const WhatDoIHelp = [
 
 export const workExp = [
   {
-    place: "Self-Employed, Brisbane",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Visual Designer",
+    place: "Wapexp, Faisalabad",
+    tenure: "Aug 2021 - Sep 2022",
+    role: "PHP Developer",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "Studied PHP course at WAPEXP Institute, Faisalabad, for about 1 year."
   },
   {
-    place: "New Man Services",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "UI/UX Designer",
+    place: "SMIT, Faisalabad",
+    tenure: "Nov 2022 - Dec 2023",
+    role: "MERN Stack student",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "Participated in the MERN Stack course at SMIT (Saylani Mass IT Training, Faisalabad), for about 1.2 years."
   },
   {
-    place: "Global Solution",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Sr. Product Designer",
+    place: "Dev House, Faisalabad",
+    tenure: "Dec 2023",
+    role: "MERN Stack developer",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "Started as a MERN Stack developer at Dev House, Faisalabad. It will be an amazing journey in the era of development."
   },
 ];
+
 
 export const comments = [
   {

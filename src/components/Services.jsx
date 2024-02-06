@@ -16,7 +16,7 @@ const Services = () => {
                            {projectExperience.map((doc,i)=>{
                                return(
                                
-                                 <motion.Card variants={fadeIn("left","tween",(i + 1) * .5,1)} className='card' key={i} hoverable={true} style={{margin:"20px 0px",borderRadius:20}}>
+                                 <motion.Card variants={fadeIn("left","tween",(i + 1) * .2,1)} className='card' key={i} hoverable={true} style={{margin:"20px 0px",borderRadius:20}}>
                                 <div className='card-icon col-2' >{< doc.icon  style={{backgroundColor:doc.bg,}} />}</div>
                                 <div className='card-detail col-10'>
                                     <p className='name'>{doc.name}</p>
@@ -27,7 +27,7 @@ const Services = () => {
                              )
                            })}
                     </div>
-                    <motion.div variants={fadeIn("right","tween",1,1.5)} className="col-md-6 col-lg-5 right-side mt-2">
+                    <motion.div variants={fadeIn("right","tween",.6,1)} className="col-md-6 col-lg-5 right-side mt-2">
                          <h1 className="help">
                              What do I help?
                          </h1>

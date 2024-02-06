@@ -4,12 +4,11 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
 import 'swiper/css';
-// import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
 
 
 // import required modules
-import { FreeMode, Pagination } from 'swiper/modules';
+import {  Pagination } from 'swiper/modules';
 import { comments } from '../utils/data';
 import { Divider } from 'antd';
 import { motion } from 'framer-motion';
@@ -20,7 +19,7 @@ const  Testimonials = () => {
     <>
     <a className="anchor" id="testimonials"></a>
        <motion.div className="testimonials my-5" variants={staggerChildren} initial="hidden" whileInView="show" viewport={{once:false,amount:0.25}}>
-        <motion.div className="container" variants={fadeIn("down","tween",0.5,1)} >
+        <motion.div className="container" variants={fadeIn("down","tween",0.8,1)} >
             <div className="row">
                 <div className="col-lg-6 about-section text-center m-auto">
                   <h1 className='mb-3'>People talk about us</h1>
