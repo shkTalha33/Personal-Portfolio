@@ -4,19 +4,19 @@ import { MdWorkspacesOutline } from "react-icons/md";
 export const projectExperience = [
   {
     name: "Website Design",
-    projects: 76,
+    projects: 10,
     icon: HiOutlineDesktopComputer,
     bg: "#286F6C",
   },
   {
     name: "Web development",
-    projects: 63,
+    projects: 15,
     icon: CiMobile1,
     bg: "#EEC048",
   },
   {
     name: "Brand Identity",
-    projects: 47,
+    projects: 10,
     icon: MdWorkspacesOutline,
     bg: "#F26440",
   },
@@ -54,68 +54,26 @@ export const workExp = [
 
 export const comments = [
   {
-    name: "Anamika Sandula",
+    name: "John Doe",
     post: "Creative Manager",
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "Working with Muhammad Talha was an absolute pleasure. He transformed our vision into a fully functional and visually appealing website. His attention to detail, technical expertise, and ability to deliver on time were truly impressive. I highly recommend him for any web development project!",
     img: "./people2.png",
   },
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "Sarah Lee",
+    post: "Product Manager",
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "Talha built a custom e-commerce platform for us, and the results have been outstanding. The integration with Stripe was seamless, and the admin panel he developed made it so easy for us to manage our products in real-time. His communication and problem-solving skills set him apart from others we've worked with.",
     img: "./people1.png",
   },
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "David Martin",
+    post: "Freelance Designer",
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people1.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people1.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people1.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
-  },
+      "I needed a clean, professional portfolio website, and Talha delivered beyond my expectations. He was responsive to my feedback and made sure every aspect of the site aligned with my vision. The final product is exactly what I needed, and the process was smooth from start to finish.",
+    img: "./people3.png",
+  }
 ];
 
 export const sliderSettings = {

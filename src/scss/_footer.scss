@@ -12,9 +12,11 @@ footer{
          font-weight: 600;
          font-size: 50px;
             span{
-                color: orange;
                 text-decoration: underline;
                 cursor: pointer;
+                a{
+                    color: orange;
+                }
             }
         }
     }
@@ -23,6 +25,10 @@ footer{
         p{
             font-size: 18px;
             color: $secondary;
+            a{
+                color: $secondary;
+                text-decoration: none;
+            }
             &:hover{
                 text-decoration: underline;
             }

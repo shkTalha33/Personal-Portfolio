@@ -18,8 +18,8 @@ const  Testimonials = () => {
   return (
     <>
     <a className="anchor" id="testimonials"></a>
-       <motion.div className="testimonials my-5" variants={staggerChildren} initial="hidden" whileInView="show" viewport={{once:false,amount:0.25}}>
-        <motion.div className="container" variants={fadeIn("down","tween",0.8,1)} >
+       <motion.div className="testimonials my-5" variants={staggerChildren} initial="hidden" whileInView="show" viewport={{once:true,amount:0.25}}>
+        <motion.div className="container" variants={fadeIn("down","tween",0.5,1)} >
             <div className="row">
                 <div className="col-lg-6 about-section text-center m-auto">
                   <h1 className='mb-3'>People talk about us</h1>
@@ -41,11 +41,11 @@ const  Testimonials = () => {
             spaceBetween: 20,
           },
           425: {
-            slidesPerView: 2,
+            slidesPerView: 1,
             spaceBetween: 20,
           },
           640: {
-            slidesPerView: 2,
+            slidesPerView: 1,
             spaceBetween: 20,
           },
           768: {

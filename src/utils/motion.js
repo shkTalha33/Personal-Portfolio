@@ -8,7 +8,7 @@ export const headerVarient = {
     opacity:1,
     transition:{
        type:"tween",
-       delay:1,
+       delay:0.5,
        duration:1,
        
     }
@@ -72,8 +72,8 @@ export const fadeIn =(direction,type,delay,duration)=> ({
       y:0,
       transition:{
           type,
-          duration,
           delay,
+          duration,
          ease : "easeInOut"
       }
   }

@@ -83,7 +83,6 @@ const Header = () => {
                   <a href="#testimonials">TESTIMONIALS</a>
                 </li>
                 <li className="cell">
-                  <span>03187019892</span>
                   <a className="icon" href="tel:+923187019892">
                     <BiPhoneCall />
                   </a>

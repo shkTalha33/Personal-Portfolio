@@ -8,11 +8,10 @@ import { fadeIn, slideIn, staggerContainer } from '../utils/motion'
     <>
         <div className="hero">
             <div className="container pt-5">
-                <motion.div className="row w-100 mx-0 hero-section" variants={staggerContainer} initial="hidden" whileInView="show">
+                <motion.div className="row w-100 mx-0 hero-section" variants={staggerContainer} initial="hidden" whileInView="show" viewport={{once:true,amount:0.25}}>
                     <motion.div
                      className="col-6  px-0 upper-left-side"
-                    variants={fadeIn("left","tween",.5,1,)}
-                    viewport={{once:false,amount:0.25}}
+                    variants={fadeIn("left","tween",.5,0.8)}
                     
                    >
                        <h1>
@@ -22,7 +21,7 @@ import { fadeIn, slideIn, staggerContainer } from '../utils/motion'
                     </motion.div>
                     <motion.div className="col-6  px-0 upper-right-side"
               
-                    variants={fadeIn("right","tween",.5,1,)}
+                    variants={fadeIn("right","tween",.5,.8)}
                     
                     >
                        <p>
@@ -32,7 +31,7 @@ import { fadeIn, slideIn, staggerContainer } from '../utils/motion'
                     </motion.div>
                     <motion.div className="col-6  mb-0 mb-lg-2 py-2  px-0 bottom-left-side"
                   
-                    variants={fadeIn("left","tween",.5,1,)}
+                    variants={fadeIn("left","tween",.5,.8)}
                     
                     >
                       <span className='ten' >
@@ -44,7 +43,7 @@ import { fadeIn, slideIn, staggerContainer } from '../utils/motion'
                     </motion.div>
                     <motion.div className="col-6 mb-0 mb-lg-2 py-2  px-0 bottom-right-side"
                     
-                    variants={fadeIn("right","tween",0.3,1,)}
+                    variants={fadeIn("right","tween",0.5,.8)}
                     
                     >
                       <span className='certicate'>
@@ -61,9 +60,9 @@ import { fadeIn, slideIn, staggerContainer } from '../utils/motion'
                        
                     </div>
                     <motion.div className="person"
-                  variants={fadeIn("down","tween",0.3,1)}
+                  variants={fadeIn("down","tween",0.5,.8)}
                     >
-                        <motion.img  variants={slideIn("down","tween",0.5,1.5)} src="talha.png" alt="" height="450px" />
+                        <motion.img  variants={slideIn("down","tween",0.5,1)} src="talha.png" alt="" height="450px" />
                     </motion.div>
                 </motion.div>
             </div>

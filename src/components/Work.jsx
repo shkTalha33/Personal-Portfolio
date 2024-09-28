@@ -6,7 +6,7 @@ const Work = () => {
   return (
     <>
     <a className="anchor" id="experience"></a>
-    <motion.div className="work" variants={staggerChildren} initial="hidden" whileInView="show" viewport={{once:false,amount:0.25}}>
+    <motion.div className="work" variants={staggerChildren} initial="hidden" whileInView="show" viewport={{once:true,amount:0.25}}>
         <div className="container py-5">
             <div className="row">
                     <h1 className='my-5 expHeading '>My Work Experience</h1>
