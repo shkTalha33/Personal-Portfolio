@@ -24,7 +24,7 @@
     }
     .portfolio-images{
          display: flex;
-         justify-content: space-between;
+         justify-content: start;
          img{
             height: 300px;
             border-radius: 12px;
@@ -46,7 +46,6 @@
         }
         .portfolio-images{
              display: flex;
-             justify-content: space-between;
              img{
                 height: 280px;
              }
